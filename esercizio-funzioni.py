@@ -1,28 +1,28 @@
-# from operator import truediv
+from operator import truediv
 
 
-# def reverse(nome):
-#     print('Il nome è =', nome)
-# reverse('Lorenzo')
+def reverse(nome):
+    print('Il nome è =', nome)
+reverse('Lorenzo')
 
-# # nome = 'Lorenzo'
-# # if 't' in nome:
-# #     print()
-# # elif 'o' in nome:
-# #     print('Al contrario = ozneroL') 
-# nome = "Lorenzo"
-# for nome in reversed('lorenzo'):
-#     print(nome)
+# nome = 'Lorenzo'
+# if 't' in nome:
+#     print()
+# elif 'o' in nome:
+#     print('Al contrario = ozneroL') 
+nome = "Lorenzo"
+for nome in reversed('lorenzo'):
+    print(nome)
     
-# def palindromo(parola) :
-#     notPalindrome = False
-#     for i in range(len(parola)):
-#         if parola[i] != parola[-i-1]:
-#             notPalindrome = True
-#     if notPalindrome:
-#         parola += 'non'
-#     print(f'La parola (word) è palindroma.')
-# palindromo(input('Inserisci una parola: '))
+def palindromo(parola) :
+    notPalindrome = False
+    for i in range(len(parola)):
+        if parola[i] != parola[-i-1]:
+            notPalindrome = True
+    if notPalindrome:
+        parola += 'non'
+    print(f'La parola (word) è palindroma.')
+palindromo(input('Inserisci una parola: '))
 
 
 def frequenzimetro(stringa):
