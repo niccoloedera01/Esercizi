@@ -5,11 +5,12 @@ def reverse(nome):
     print('Il nome è =', nome)
 reverse('Lorenzo')
 
-# nome = 'Lorenzo'
-# if 't' in nome:
-#     print()
-# elif 'o' in nome:
-#     print('Al contrario = ozneroL') 
+
+nome = 'Lorenzo'
+if 't' in nome:
+    print()
+elif 'o' in nome:
+    print('Al contrario = ozneroL') 
 nome = "Lorenzo"
 for nome in reversed('lorenzo'):
     print(nome)
